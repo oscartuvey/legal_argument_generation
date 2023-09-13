@@ -21,13 +21,13 @@ This should create the following file:
 Preprocessing/Rhetorical_Role_Labelling/categories.txt
 ```
 
-This will be used for scraping the [Facts] and [Ratio of the decision] pairs onto the unlabelled data.
+This will be used for scraping the [Facts] and [Ratio of the decision] pairs from the unlabelled data.
 
 ### Preprocessing
 
 The method for scraping the [Facts] and [Ratio of the decision] pairs will depend upon the data.
 
-To scrape the appropriate labels on the annotated dataset, use:
+To scrape the appropriate labels from the annotated dataset, use:
 
 ```
 !python Preprocessing/Rhetorical_Role_Labelling/scrape_labelled.py
