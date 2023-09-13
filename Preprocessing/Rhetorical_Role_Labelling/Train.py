@@ -8,9 +8,9 @@ def main():
     parser = argparse.ArgumentParser()
 
     parser.add_argument('--pretrained', default = False, type = bool, help = 'Whether the model uses pretrained sentence embeddings or not')
-    parser.add_argument('--data_path', default = '/content/drive/MyDrive/semantic-segmentation-master/data/text/', type = str, help = 'Folder to store the annotated text files')
-    parser.add_argument('--save_path', default = '/content/drive/MyDrive/semantic-segmentation-master/saved/', type = str, help = 'Folder where predictions and models will be saved')
-    parser.add_argument('--cat_path', default = '/content/drive/MyDrive/semantic-segmentation-master/categories.txt', type = str, help = 'Path to file containing category details')     
+    parser.add_argument('--data_path', default = 'Preprocessing/Rhetorical_Role_Labelling/data/data/text/', type = str, help = 'Folder to store the annotated text files')
+    parser.add_argument('--save_path', default = 'Preprocessing/Rhetorical_Role_Labelling/saved/', type = str, help = 'Folder where predictions and models will be saved')
+    parser.add_argument('--cat_path', default = 'Preprocessing/Rhetorical_Role_Labelling/categories.txt', type = str, help = 'Path to file containing category details')     
     parser.add_argument('--dataset_size', default = 50, type = int, help = 'Total no. of docs')
     parser.add_argument('--num_folds', default = 5, type = int, help = 'No. of folds to divide the dataset into')
     parser.add_argument('--device', default = 'cuda', type = str, help = 'cuda / cpu')
