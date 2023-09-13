@@ -5,9 +5,9 @@ import string
 # encoding = "utf-8"
 
 def main():
-    directory = '/content/drive/MyDrive/semantic-segmentation-master/data'
+    directory = 'Preprocessing/Rhetorical_Role_Labelling/data'
 
-    index_path = '/content/drive/MyDrive/semantic-segmentation-master/finetune_gs_git.txt'
+    index_path = 'Preprocessing/Rhetorical_Role_Labelling/finetune_labelled.txt'
 
     path = os.path.join(directory, 'text')
 
