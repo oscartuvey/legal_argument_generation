@@ -6,12 +6,12 @@ import unicodedata
 # encoding = "utf-8"
 
 def main():
-    directory = '/content/drive/MyDrive/semantic-segmentation-master/infer'
+    directory = 'Preprocessing/Rhetorical_Role_Labelling/infer'
 
 
     predictions_file = 'predictions.txt'
 
-    index_path = "/content/drive/MyDrive/semantic-segmentation-master/finetune_git.txt"
+    index_path = "Preprocessing/Rhetorical_Role_Labelling/unlabelled_finetune.txt"
     predictions_path = os.path.join(directory, predictions_file)
 
     path = os.path.join(directory, 'data')
